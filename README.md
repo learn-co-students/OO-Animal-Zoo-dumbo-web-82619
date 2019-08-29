@@ -23,7 +23,7 @@ _Keep in mind that in order to properly build out the relationships between an `
 - `Zoo#animal_species` should return an array of all the species (as strings) of the animals in the zoo. However, if you have two dogs, it should only return one "Dog" string (aka an **unique** array).
 - `Zoo#find_by_species` should take in an animal's species as an argument and return an array of all the animals in that zoo, which are of that species.
 - `Zoo#animal_nicknames` should return an array of all the nicknames of animals that a specific instance of a zoo has.
-- `Zoo.find_by_location` should take in a location as an argument and return an array of all the zoos within that location.
+- `Zoo.find_by_location` should take in a location as an argument and return an array of all the zoos within that location. 
 
 ### Animal Class
 - An `animal` should be instantiated with the species (e.g. "Cat", "Dog", "Rat"), a numerical weight and a nickname. Keep in mind that the animal's species and nickname should not be able to change, but its weight can.
