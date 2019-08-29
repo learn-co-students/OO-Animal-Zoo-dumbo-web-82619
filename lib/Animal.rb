@@ -26,9 +26,6 @@ class Animal
        end
 
        return array_of_all_animals
-
     end
-
-
 
 end
