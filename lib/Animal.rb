@@ -8,6 +8,7 @@ class Animal
     # Returns the weight of the animal.
     # Returns the species of the animal.
     # Returns the Zoo of the animal.
+    # Instance variable weight can be modified.
     attr_accessor :weight
     attr_reader :species, :nickname, :zoo
 
@@ -23,6 +24,8 @@ class Animal
     end
 
     # Returns an array of all the animal instances. Animal.all => @@animals
+    # Without the self.all class method, we won't be able to read the animals class variable.
+    # Making animals class variable publically avaiable for other classes.
     def self.all
         @@animals
     end
